@@ -1,0 +1,28 @@
+﻿@model LanchoneteDextra.Domain.Entities.Pedido[]
+
+<div class="panel panel-primary">
+    <div class="panel-heading"> 
+        <h3 class="panel-title">Resumo do pedido</h3> 
+    </div>    
+    <div class="panel-body">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Lanche</th>
+                    <th>Quantidade</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var pedido in Model)
+                {
+                    <tr>
+                        <th scope="row">@pedido.NomeLanche</th>
+                        <td>@pedido.Quantidade</td>
+                        <td>@string.Format("{0:C}", pedido.Valor)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+﻿@model IEnumerable<LanchoneteDextra.Domain.Entities.Ingrediente>
+
+<div class="col-lg-12" id="containerHome">
+    <div class="list-group">
+        @foreach (var ingrediente in Model)
+        {
+            <a href="#" class="list-group-item" id="@ingrediente.Id">
+                <span class="badge">0</span>
+                @ingrediente.Nome - @string.Format("{0:C}", ingrediente.Valor)
+            </a>
+            
+        }
+    </div>
+    <button id="btnConfirmarPersonalizado" type="button" class="btn btn-primary btn-lg btn-block" style="display:none;">Confirmar pedido</button>
+</div>
+
+@section scripts {
+    @Scripts.Render("~/bundles/personalizar")
+}

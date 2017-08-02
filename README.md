@@ -18,5 +18,5 @@ Projeto Desafio Dextra
 * Utilizado ferramenta padrão do Visual Studio para criação dos testes unitários. Infelizmente não sei o que houve, no momento da execução do primeiro teste ocorreu o erro `could not connect to test process vstest.discoveryengine.x86.exe`. Não encontrei nada na internet que me ajudasse por isso, não finalizei o processo de testes.
 
 **Telas**
-<p><a href="https://drive.google.com/file/d/0B12drrbK1f36cWR1d24zYnJ5c0E/view" target="_blank" >Comprando lanche do cardápio</a></p>
-<p><a href="https://drive.google.com/file/d/0B12drrbK1f36VEp4aEEzcXhWT1U/view" target="_blank" >Comprando lanche personalizado</a></p>
+* <a href="https://drive.google.com/file/d/0B12drrbK1f36cWR1d24zYnJ5c0E/view" target="_blank">Comprando lanche personalizado</a>
+* <a href="https://drive.google.com/file/d/0B12drrbK1f36VEp4aEEzcXhWT1U/view" target="_blank">Comprando lanche do cardápio</a>

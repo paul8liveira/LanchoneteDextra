@@ -15,7 +15,12 @@ Projeto Desafio Dextra
 	* Simplesmente no ato da execução do projeto o nuget fará a atualização necessária das referências.
 	
 **Teste unitário com MSTest**
-* Utilizado ferramenta padrão do Visual Studio para criação dos testes unitários. Infelizmente não sei o que houve, no momento da execução do primeiro teste ocorreu o erro `could not connect to test process vstest.discoveryengine.x86.exe`. Não encontrei nada na internet que me ajudasse por isso, não finalizei o processo de testes.
+* Utilizado ferramenta padrão do Visual Studio para criação dos testes unitários. Cobertura de testes feito em:
+	* Cálculo padrão dos lanches do cardápio
+	* Cálculo Personalizado Preço Light
+	* Cálculo Personalizado Muita Carne
+	* Cálculo Personalizado Muito Queijo
+	* Cálculo Personalizado Inflação
 
 **Telas**
 * <a href="https://drive.google.com/file/d/0B12drrbK1f36cWR1d24zYnJ5c0E/view" target="_blank">Comprando lanche personalizado</a>
